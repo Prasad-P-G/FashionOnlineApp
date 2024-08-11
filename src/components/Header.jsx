@@ -10,7 +10,7 @@ const Header = ({isCart}) => {
     <View style={styles.container}>
       <TouchableOpacity
         onPress={() => {
-          navigation.navigate('HOME_STACK');
+          navigation.navigate('HOME');
         }}
         style={styles.appIconContainer}>
         {isCart ? (

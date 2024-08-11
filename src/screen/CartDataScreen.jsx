@@ -4,12 +4,18 @@ import LinearGradient from 'react-native-linear-gradient';
 import Header from '../components/Header';
 import CartCard from '../components/CartCard';
 import {CartContext} from '../Context/CartContext';
+import {useNavigation} from '@react-navigation/native';
 
 const CartDataScreen = () => {
   const {carts, totalPrice, deleteItemFromCart} = useContext(CartContext);
+  const navigation = useNavigation();
 
   const numberWithComma = x => {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+  };
+
+  const handleCheckout = () => {
+    navigation.navigate('HOME');
   };
 
   let val = 34344534;
@@ -21,11 +27,17 @@ const CartDataScreen = () => {
         <Header isCart={true}></Header>
       </View>
 
+      {/* renderItem={({item}) => {
+          <CartCard item={item} deleteItemFromCart={deleteItemFromCart} />;
+        }} */}
+      {/* renderItem={CartCard} */}
       <FlatList
         data={carts}
-        renderItem={({item}) => {
-          <CartCard item={item} deleteItemFromCart={deleteItemFromCart} />;
-        }}
+        renderItem={({item}) => (
+          <CartCard
+            item={item}
+            deleteItemFromCart={deleteItemFromCart}></CartCard>
+        )}
         keyExtractor={item => item.id}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={{
@@ -50,7 +62,11 @@ const CartDataScreen = () => {
                 ${totalPrice.toFixed(2)}
               </Text>
             </View>
-            <TouchableOpacity style={styles.button}>
+            <TouchableOpacity
+              style={styles.button}
+              onPress={() => {
+                handleCheckout();
+              }}>
               <Text style={styles.buttonText}>Place Order</Text>
             </TouchableOpacity>
           </>

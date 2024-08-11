@@ -8,13 +8,7 @@ import ProductCart from '../components/ProductCart';
 import data from '../data/data.json';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
-const categories = [
-  'Popular Foods',
-  'All',
-  'New',
-  'Veg-Foods',
-  'Non Veg-Foods',
-];
+const categories = ['Trending Now', 'All', 'New', 'Mens', 'Womens'];
 
 const HomeScreen = () => {
   //json Data
@@ -102,7 +96,7 @@ const HomeScreen = () => {
             </>
           }
           data={products}
-          renderItem={({item, index}) => (
+          renderItem={({item}) => (
             <ProductCart item={item} handleLiked={handleLiked}></ProductCart>
           )}
           keyExtractor={item => item.id}
