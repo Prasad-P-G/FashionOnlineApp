@@ -102,7 +102,7 @@ const HomeScreen = () => {
           keyExtractor={item => item.id}
           showsVerticalScrollIndicator={false}
           contentContainerStyle={{
-            paddingBottom: 50,
+            paddingBottom: 200,
           }}></FlatList>
       </SafeAreaView>
 

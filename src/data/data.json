@@ -2,32 +2,32 @@
     "products": [
         {
             "id": 1,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567613/cwlk21f74nd9iamrlzkh.png",
-            "title": "Jacket",
+            "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfEXKoHlxJOrdJZOinbjkouyhArua3cWHIiHygf0K1pDPAJHiwHumltDsn_l2paJLqXpCEsLECg7XeUVvbjXBCxvoYC7gFSqWWG7jTRdDvoi5Jf7QvUrKiZA",
+            "title": "Ambika Style",
             "price": 49.99
         },
         {
             "id": 2,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/qichw3wrcioebkvzudib.png",
-            "title": "Jeans",
+            "image": "https://i.pinimg.com/736x/da/32/8a/da328aff26d54012f49b212c48f20603.jpg",
+            "title": "Hand Made Ilkal Saari",
             "price": 39.99
         },
         {
             "id": 3,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/vy2q98s8ucsywwxjx2cf.png",
-            "title": "Acrylic Sweater",
+            "image": "https://i.pinimg.com/564x/fc/2d/de/fc2ddeac1803b30f4f7aa73a7303c088.jpg",
+            "title": "Authentic Sarees",
             "price": 29.99
         },
         {
             "id": 4,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/smf81ubnfjennk9qbjm4.png",
-            "title": "Winter Coat",
+            "image": "https://i.pinimg.com/564x/da/be/ad/dabead994ba0134e1e56f822e7f1d0f0.jpg",
+            "title": "Hand Made Pure Cotton Saree",
             "price": 99.99
         },
         {
             "id": 5,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/cvafl35dv9wzisdsgtd6.png",
-            "title": "Winter Shirts",
+            "image": "https://i.pinimg.com/564x/84/6c/82/846c826bd301abd4d80bcca175c2bea4.jpg",
+            "title": "ILKAL Special Saree",
             "price": 59.99
         },
         {
@@ -92,8 +92,8 @@
         },
         {
             "id": 16,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/smf81ubnfjennk9qbjm4.png",
-            "title": "Peacoat",
+            "image": "https://i.pinimg.com/564x/15/1f/40/151f401ad0dc998eee56840879ce7bcd.jpg",
+            "title": "Ilkal Traditional Saree",
             "price": 89.99
         },
         {
@@ -116,8 +116,8 @@
         },
         {
             "id": 20,
-            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/qichw3wrcioebkvzudib.png",
-            "title": "Ripped Jeans",
+            "image": "https://i.pinimg.com/564x/84/6c/82/846c826bd301abd4d80bcca175c2bea4.jpg",
+            "title": "ILKAL Saree",
             "price": 69.99
         }
     ]

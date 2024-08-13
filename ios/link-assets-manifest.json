@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Play-Bold.ttf",
+      "sha1": "394247c9a5eeded939cf9d78b30687495b36f0dd"
+    },
+    {
+      "path": "src/assets/fonts/Play-Regular.ttf",
+      "sha1": "1597823ffd9c3a555b5081c7394ff0347adfbdbc"
+    },
+    {
+      "path": "src/assets/fonts/PlaywriteUSModern-VariableFont_wght.ttf",
+      "sha1": "81f29266f61501b4592038fcc3974cd6954f23a7"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-Italic-VariableFont_wght.ttf",
+      "sha1": "1f3a4253494f6698c0f9916e09cfec94c1bdba1f"
+    },
+    {
+      "path": "src/assets/fonts/WorkSans-VariableFont_wght.ttf",
+      "sha1": "5a5c31a7166d40d51d018daed7c654cb34d641a6"
+    }
+  ]
+}
